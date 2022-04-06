@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="screen2.css">
+    <title>Second Page</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Task Details</h1>
+    </div>
+    <div id="tasks">
+        <div class="task-container">
+            <h2 class="counter">Task</h2>
+            <hr>
+            <h3 class="addtxt">Item Name:</h3>
+            <h3 class="choice">State:</h3>
+            <h3 class="txt">Description:</h3>
+            <h3 class="pick">Team:</h3>
+            <h3 class="dueDate">Due Date:</h3>
+            <h3 class="doneDate">Done Date:</h3>
+            <div class="bottom">
+                <!-- <a href="" class="editTask" id="editBtn">Edit</a> -->
+                <button class="editTask" id="editBtn">Edit</button>
+            </div>
+        </div>
+    </div>
+
+    <dialog class="modal" id="modal">
+        <form>
+            <div class="item">
+                <label>Item Name :</label>
+                <input type="text" id="addtxt" name="field">
+            </div>
+            <div class="item">
+                <label>State: </label>
+                <select id="choice">
+                    <option value="Backlog">Backlog</option>
+                    <option value="Blocked">Blocked</option>
+                    <option value="Selected For Development">Selected for Development</option>
+                    <option value="In Code Review">In Code Review</option>
+                    <option value="In Testing">In Testing</option>
+                    <option value="Release Ready">Release Ready</option>
+                    <option value="Done">Done</option>
+                </select>
+            </div>
+            <div class="item">
+                <label>Description :</label>
+                <div class="txtarea">
+                    <textarea id="txt"></textarea>
+                </div>
+            </div>
+            <div class="item">
+                <label>Team : </label>
+                <select id="pick" >
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="DevOps">Devops</option>
+                    <option value="Business Analytics">Business Analytics</option>
+                </select>
+            </div>
+            <div class="item">
+                <label>Due Date : </label>
+                <input type="date" id="dueDate">
+            </div>
+            <div class="item">
+                <label>Done Date : </label>
+                <input type="date" id="doneDate" >
+            </div>
+            <button type="button" class="btn-primary" id="savebtn">Save</button>
+            <button type="button" class="btn-primary" id="closebtn">Close</button>
+        </form>
+    </dialog>
+    
+    <script src="screen2.js"></script>
+</body>
+
+</html>

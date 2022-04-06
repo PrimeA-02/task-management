@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>First Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Task Management App</h1>
+        </div>
+        <div class="card-container">
+            <div class="create">
+                <h2>Create Task</h2>
+            </div>
+            <div class="content">
+                <img src="image.jpeg" alt="image" height="210px" width="340px">
+            </div>
+            <div class="footer">
+                <button type="button" class="btn-primary" id="addbtn">Add</button>
+
+            </div>
+        </div>
+
+        <div class="mid">
+            Your Tasks
+        </div>
+        <hr>
+
+        <div id="items">
+            <div class="inputData">
+                <h2 class="count">Task</h2>
+                <p class="addtxt">Item Name:</p>
+                <p class="choice">State:</p>
+                <p class="txt">Description:</p>
+                <p class="pick">Team:</p>
+                <p class="dueDate">Due Date:</p>
+                <p class="doneDate">Done Date:</p>
+                <div class="footer">
+
+                    <button type="button" class="btn-primary" id="delbtn">Delete</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <dialog class="modal" id="modal">
+        <form>
+            <div class="item">
+                <label>Item Name :</label><br>
+                <input type="text" id="addtxt" name="field">
+            </div>
+            <div class="item">
+                <label>State: </label><br>
+                <select id="choice">
+                    <option value="Backlog">Backlog</option>
+                    <option value="Blocked">Blocked</option>
+                    <option value="Selected For Development">Selected for Development</option>
+                    <option value="In Code Review">In Code Review</option>
+                    <option value="In Testing">In Testing</option>
+                    <option value="Release Ready">Release Ready</option>
+                    <option value="Done">Done</option>
+                </select>
+            </div>
+            <div class="item">
+                <label>Description :</label><br>
+                <div class="txtarea">
+                    <textarea id="txt"></textarea>
+                </div>
+            </div>
+            <div class="item">
+                <label>Team : </label><br>
+                <select id="pick">
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="DevOps">Devops</option>
+                    <option value="Business Analytics">Business Analytics</option>
+                </select>
+            </div>
+            <div class="item">
+                <label>Due Date : </label><br>
+                <input type="date" id="dueDate">
+            </div>
+            <div class="item">
+                <label>Done Date : </label><br>
+                <input type="date" id="doneDate">
+            </div>
+            <div class="lowerBtn">
+                <button type="button" class="btn" id="savebtn" style="cursor: pointer;">Save</button>
+                <button type="button" class="btn" id="closebtn" style="cursor: pointer;">Close</button>
+            </div>
+        </form>
+    </dialog>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

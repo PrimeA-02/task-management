@@ -1,0 +1,151 @@
+.header{
+    border-radius: 40px;
+    height: 100px;
+    text-align: center;
+    padding: 6px;
+    background-color: #DFDFDE;
+}
+
+h1{text-shadow: 4px 4px 10px darkslategray; 
+    color:darkslategray;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+    width: 350px;
+    height: auto;
+    margin: 40px 40% ;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px gray;
+}
+
+
+
+.inputData{
+    width: 300px;
+    height: 200px;
+    margin: 40px 20px;
+    border-radius: 12px;
+    font-size: large;
+    height: auto;
+    background-color: #05595B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    box-shadow: 4px 4px 5px grey;
+    color:white;
+    
+}
+.count{text-align: center;}
+
+.create{padding: 4px;text-align: center;
+    font-size: 25px;
+    background-color:#3A3845;
+    color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.mid{font-size: 30px;margin-top: 30px;
+    color: #303841;font-weight: bold;
+    margin-left: 8px;
+     text-shadow: 2px 2px 6px #303841;
+}
+
+.btn-primary{
+    background-color: #52616B;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 25px;
+    border-radius: 6px;
+    width: 70px;
+    border: none;
+}
+
+.btn-primary:hover{cursor: pointer;}
+
+.footer{
+    text-align: center;
+    background-color: #52616B;
+    height: 65px;
+    font-size:medium;
+    border-radius: 20px;
+}
+
+.item{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.modal{
+    text-decoration: none;
+    border-radius: 15px;
+    padding:10px;
+    width: 500px;
+    border:none;
+    background-color:lightgray;
+    
+}
+
+.inputData:hover{
+    box-shadow: 8px 8px 10px ;
+}
+
+.card-container:hover{
+   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+   
+}
+
+.card-items:hover{
+    box-shadow: 7px 7px 10px darkslategrey;
+    background-color: dimgrey;
+}
+
+.card-header{ 
+    height:10px;
+background-color: azure;
+}
+
+.inputData p{
+    margin-left: 6px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #798777;
+    border: none;
+    font-size: large;
+}
+
+.lowerBtn{text-align:end;
+    padding: 10px;
+}
+
+#addtxt,#choice,#pick,#dueDate,#doneDate{
+    padding: 10px;
+    width:300px;
+    margin-top: 5px;
+    font-size: large;
+}
+
+#txt{padding: 20px;
+width:400px;
+margin-top: 5px;
+}
+
+#savebtn,#closebtn{border-radius: 5px;
+background-color: dodgerblue;
+}
+
+/* img{
+    text-decoration: none;} */
+
+

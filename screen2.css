@@ -1,0 +1,80 @@
+.header
+{
+    height: 100px;
+    text-align: center;
+    padding: 6px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    
+    color: #7e4a35;
+}
+
+.counter{text-align: center;padding-top: 15px;}
+
+.task-container
+{
+    background-color: #A6B1E1;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 42%;
+
+}
+
+.editTask{
+    border:none;
+    background-color:#1A132F;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bottom{
+    background-color:#1A132F;
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    border-radius:15px;
+}
+.bottom:hover{box-shadow: 0px 0px 10px rgb(97,164,188);}
+
+h3{margin-left:6px;}
+
+.modal{
+    text-decoration: none;
+    border-radius: 15px;
+    padding:10px;
+    width: 500px;
+    border:none;
+    background-color:lightgray;
+}
+
+.item{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: lightslategray;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: large;
+    border-radius: 6px;
+    width: 70px;
+}
+
+#addtxt,#choice,#pick,#dueDate,#doneDate{
+    padding: 10px;
+    width:300px;
+    margin-top: 5px;
+    font-size: large;
+}
+
+#txt{padding: 20px;
+    width:400px;margin-top: 5px;}
+
